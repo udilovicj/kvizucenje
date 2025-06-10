@@ -1,859 +1,354 @@
-Q: public Socket (String IP, int port) throws IOException" Ovaj deo koda predstavlja:
-- explanation: "public Socket (String IP, int port) throws IOException" Ovaj deo koda predstavlja konstruktor klase Socket:
-Ovo je konstruktor klase Socket koji prima IP adresu i port kao parametre. Konstruktor služi za kreiranje novog Socket objekta koji će uspostaviti mrežnu konekciju na zadatoj adresi i portu. Throws IOException označava da metoda može da baci izuzetak ukoliko dođe do problema prilikom uspostavljanja konekcije.
+Q:  Koji od sledećih iskaza su tačni (označti 2 tačna odgovora):
+- option:  VDI tehnologija generiše prednosti kada se izvršava aplikacija koja zahteva specijalizovani hardver
+- option:  Infrastruktura virtuelnog desktopa u značajnoj meri olakšava procese upravljanja softverom, nadogradnje softvera (eng. software upgrades) i podrške korisnicima zato što se sve virtuelne mašine otpremaju na dva ili više povezana servera
+- answer:  Promovisanje politike BYOD omogućava VDI
+- answer:  Pomoću tehnologije virtuelnog desktopa mogu da se naprave skupovi desktop okruženja (eng. virtual desktop pools) koji se koriste od strane više korisnika istovremeno, a takođe mogu da se naprave i lična desktop okruženja (eng. personal desktop environments) koja koriste individualni korisnici
+- option:  VDI tehnologija generiše prednosti kada se izvršava aplikacija koja zahteva 3D
+renderovanje
+
+Q:  Skup alata modela PaaS se obično sastoji iz sledećeg (označiti 3 tačna odgovora):
+- option:  SSH server
+- answer:  programskog okruženja
+- option:  FTP servera
+- answer:  baze podataka
+- answer:  sigurnosnih mehanizama
+- option:  operativnog sistema
+- option:  prekonfigurisane virtuelne instance
+
+Q:  U odnosu na fizičku lokaciju računarskog centra, neke od forme organizovanja su (označiti 2 tačna odgovora):
+- answer:  Distribuirano hostovanje
+- option:  Kolokacioni računski centar
+- option:  Delimično zamršeni računski centar
+- option:  Zamršeni računski centar
+- answer:  Centralizovano hostovanje
+- option:  Hostovanje kojim se upravlja
+
+
+
+
+Q:  Jedna od najznačajnijih prednosti modela PaaS je:
+- option:  Klijent ne zna gde je fizički lociran server
+- option:  Zavisnost od mreže klaud provajdera
+- answer:  Interoperabilnost i portabilnost
+- option:  Klijent je odgovoran za čuvanje i pravljenje rezervnih kopija podataka
+- option:  Ništa od navedenog
+
+Q:  Koji od sledećih iskaza je tačan:
+- option:  Ništa od navedenog nije tačno
+- answer:  Najvažnija prednost virtuelizacije je apstrakcija usluga klijentima
+- option:  Začetnik konvergirane infrastrukture je kompanija IBM
+- option:  NIC Teaming je postao de facto standard Q:  godine
+- option:  Hub and spoke topologija se koristi u klaud centrima podataka
+- option:  Prva mreža zasnovana na klaudu je bila GLONET
+
+Q:  Koje su od sledećih tvrdnji nisu tačne (označiti 2 tačna odgovora).
+- option:  Zajednički klaud može da bude u vlasništvu i da se njime upravlja od strane jedne ili više organizacija koje pripadaju zajednici, neke treće strane, ili kombinacije ova dva.
+- option:  Hibridni klaud omougćava deljenje podataka i aplikacija između privatnog i javnog klauda.
+- answer:  Jedan od najvećih nedostataka hibridnog klauda nedostatak u vidu potpune fleksibilnosti, zato što platforma zavisi od dobavljača usluge.
+- option:  Javni klaud je optimalna solucija kada se razvija i testira jedna izolovana aplikacija.
+- answer:  U slučaju privatnog klauda, raspoloživi resursi su uvek potpuno iskorišćeni
+
+Q:  Da li je sledeća tvrdnja tačna? Klaud provajderi koriste hiper konvergirane tehnologije za razvoj javnog i hibridnog klaud okruženja i mogu da ponude svoje usluge individualnim i korporativnim klijentima po značajno nižim troškovima.
+- answer:  Da
+- option:  Ne
+
+
+Q:  U optičkim mrežama se koriste sledeći konektori (označiti 3 uljeza):
+- option:  MTRJ
+- answer:  CL
+- option:  LC
+- answer:  MTJR
+- option:  ST
+- answer:  TS
+- option:  SC
+
+Q:  Koji od sledećih iskaza o mobilnoj mreži 4G su tačni (označiti 2 odgovora):
+- option:  podržava propusni opseg od 1 Gb/s kada je korisnik u pokretu
+- option:  podržava propusni opseg od 10 Gb/s kada je korisnik u mestu, ili kada se kreće sporo   
+ - answer:  podržava propusni opseg od 300 Mb/s kada je korisnik u pokretu
+- option:  propusni opseg eksponencijalno opada kada se korisnik kreće, i tada je propusni opseg samo 50 Mb/s
+- answer:  podržava propusni opseg od 1 Gb/s kada je korisnik u mestu, ili kada se kreće sporo     
+ - option:  podržava propusni opseg od 100 Mb/s kada je korisnik u pokretu
+
+Q:  Kada se klaud računarstvo posmatra kao koncept, mogu da se izdvoje tri kategorije aktera (učesnika) u sistemu (označiti 3 tačna odgovora):
+- answer:  CSP
+- option:  Vendor računarskih resursa
+- option:  Menadžment
+- answer:  Korisnici
+- answer:  Posrednik
+
+
+
+
+
+
+
+Q:  Koji od sledećih iskaza je tačan:
+- option:  Ništa od navedenog nije tačno.
+- option:  Konekcija ka skladištima priključenim na mrežu se uspostavlja putem lične mreže.
+- option:  Kao jedna od ključnih karakteristika lokalnih skladišnih mreža u literaturi se navodi da postoji kompatibilnost sa različitim operativnim sistemima i fajl sistemima
+- answer:  Tehnologija skladišta priključenih na mrežu se implementira uz nešto veće počtne troškove.
+- option:  Zbog činjenice da je mrežna segmentacija u slučaju virtuelnih mreža zasnovana na logičkoj podeli mreže putem specijalizovanog hardvera, za rekonfigurisanje mreže je potrebno manje vremena i manje radne snage nego što je to slučaj u tradicionalnim okruženjima.
+
+Q:  Konvergirana infrastruktura može da se definiše kao IT infrastruktura koja koristi najbolje prakse iz računarstva u procesu izbora serverskih, mrežnih i resursa za skladištenje podataka koji se alociraju dinamički kada se za to ukaže potreba.
+- answer:  TAČNO
+- option:  NETAČNO
+
+Q:  Da li je sledeća tvrdnja tačna? Konvergirana infrastruktura može da se definiše kao IT infrastruktura koja ne koristi najbolje prakse iz računarstva u procesu izbora serverskih, mrežnih i resursa za skladištenje podataka, koji se alociraju (eng. "allocate") na zahtev (eng. "on- option: demand") raznim operativnim okruženjima i aplikacijama.
+- answer:  Ne
+- option:  Da
+
+Q:  Šta od navedenog spada u značajnije kategorije troškova tradicionalne IT infrastrukture (3 tačna odgovora):
+- option:  Troškovi implementiranja hipervizora
+- answer:  Troškovi hardvera
+- answer:  Troškovi upravljanja
+- option:  Troškovi klaud platforme
+- answer:  Troškovi objekata za skladištenje opreme
+- option:  Troškovi razvoja novih modela apstrakcije resursa
+
+Q:  IT silos može da se definiše kao:
+- option:  Skup IT resursa koji poseduje i kontroliše jedna lokacija u organizaciji
+- answer:  Skup IT resursa koji poseduje i kontroliše određena organizaciona jedinica, ili odeljenje u organizaciji.
+- option:  Skup IT resursa koji poseduje i kontroliše jedna upravljačka jedinica u organizaciji
+- option:  Skup IT resursa koji poseduje i kontroliše određena poslovna grupa u organizaciji
+
+Q:  Da li je sledeća tvrdnja tačna? Tradicionalna troslojna arhitektura može da odgovori dovoljno brzo na zahteve poslovnog okruženja u kome korporacija posluje i omogućuje implementiranje proaktivne strategije konkurentnosti.
+- option:  Da
+- answer:  Ne
+
+Q:  Neki od često korišćenih protokola za autentifikaciju su (označiti 3 tačna odgovora):
+- option:  Samba
+- option:  WINS
+- option:  HTTPS
+- answer:  Kerberos
+- answer:  RADIUS
+- option:  SMB
+- option:  SHTTP
+- option:  CIFS
+- answer:  NTLM
+
+Q:  Standard TIA/EIA- option: 568 odnosi se na:
+- option:  Žične mreže                                                                                                                                                                     - option:  HP servere
+- option:  Hiperkonvergirane servere
+- answer:  TP kablove
+- option:  Bezične mreže
+- option:  Virtuelne komutatore
+
+
+Q:  Termin baremetal hipervizor odnosi se na:
+- answer:  Hipervizor koji je implementiran neposredno iznad hardvera
+- option:  Hipervizor koji je implementiran iznad operativnog sistema
+- option:  Hipervizor koji je implementiran u formi aplikacije neposredno iznad hardvera
+- option:  Hipervizor koji je implementiran kao servis na host računaru
+
+Q:  Tipovi klaud računarstva prema modelu ispiruke su (izbaciti 3 uljeza):
+- answer:  Hostovani klaud
+- option:  Hibridni klaud
+- answer:  Personalni klaud
+- answer:  Zaštićeni klaud
+- option:  Zajednički klaud
+
+Q:  Kako se zove uloga u organizaciji koja približava IT poslovanju organizacionih jedinica:
+- option:  IT DA
+- answer:  IT BA
+- option:  IT SE
+- option:  IT Admin
+
+Q:  Da li je sledeća tvrdnja tačna? Virtuelizacija servera je primarna komponenta koja se koristi u izradnji hiper- option: konvergiranog okruženja, koje se najčešće koristi u klaud računarstvu. U ovako postavljenom okruženju, virtuelne mašine se izvršavaju na računaru domaćinu (eng. "Host computer") i takvo okruženje omogućava da više servera koegzistira na jednoj hardverskoj platformi.
+- option:  Ne
+- answer:  Da
+
+
+
+
+Q:  Računarske mreže koje su prve koristile simbol oblaka u vizuelnoj reprezentacji računarskih mreža su:
+- answer:  CSNET
+- option:  CDNET
+- option:  GLONET
+- answer:  ARPANET
+- option:  CONET
+- option:  APRANET
+
+Q:  Prema kompaniji HP, neke od faza tranzicije od tradicionalnog do konvergiranom računskom centru su (označiti 3 tačna odgovora):
+- option:  Konsolidacija i specijalizacija
+- answer:  Dinamičko dodavanje resursa na zahtev
+- option:  Sagregacija virtuelnih mašina i skladišta
+- answer:  Standardizacija i konsolidacija
+- answer:  Dinamičko korišćenje i hibridna isporuka usluga
+- option:  Autonomna automatizacija
+- option:  Virtuelizacija i paravirtuelizacija
 
-- option: Klasu Socket
+Q:  Dve osnovne tehnologije koje se implementiraju u virtuelnim skladištima su (označiti 2 tačna odgovora):
+- option:  PAS
+- option:  MAN
+- answer:  SAN
+- answer:  NAS
+- option:  LAN
+- option:  DAS
+- option:  PAN
 
-- answer: Konstruktor klase Socket
+Q:  Da li je sledeća tvrdnja tačna? Konvergirana infrastruktura objedinjuje servere, skladišni prostor, mrežnu opremu i ostale IT resurse u jednu integrisanu celinu, tako da se njima upravlja kao jednim skupom resursa.
+- answer:  Da
+- option:  Ne
+Q:  U koju kategoriju bi spadao klaud servis podrška odlučivanju:
+- answer:  Saas
+- option:  BPaaS
+- option:  Caas
+- option:  laas
+- option:  Paas
 
-- option: Metod klase Socket
-
-Q: Koji je pravi redosled slojeva OSI modela:
-- explanation: Koji je pravi redosled slojeva OSI modela:
-Ovo je tačan redosled slojeva OSI (Open Systems Interconnection) modela, koji opisuje apstraktni model mrežne komunikacije. Svaki sloj ima specifičnu ulogu u procesu komunikacije, počev od fizičkog prenosa podataka do krajnje aplikativne interakcije.
-
-- option: Fizički, Veza, Mrežni, Transportni, Sesija, Aplikativni, Prezentacioni
-
-- option: Fizički, Veza, Transportni, Mrežni, Prezentacioni, Sesija, Aplikativni
-
-- option: Fizički, Mrežni, Veza, Sesija, Transportni, Aplikativni, Prezentacioni
-
-- answer: Fizički, Veza, Mrežni, Transportni, Sesija, Prezentacioni, Aplikativni
-
-Q: Koja su dva načina za kreiranje i izvršavanje niti u Javi?
-- explanation: Koja su dva načina za kreiranje i izvršavanje niti u Javi:
-U Javi postoje dva glavna načina za kreiranje niti. Prvi je nasleđivanjem klase Thread, gde se prepisuje metoda run(). Drugi je implementacijom interfejsa Runnable, što pruža više fleksibilnosti jer Java ne podržava višestruko nasleđivanje.
-
-- option: implementacijom klase Thread
-
-- option: nasleđivanjem interfejsa Runnable
-
-- answer: nasleđivanjem klase Thread
-
-- option: korišćenjem metode Object.notifyAll()
-
-- answer: implementacijom interfejsa Runnable
-
-Q: Kod na slici prestavlja:
-Runnable zadatak = () -> {System.out.println("Zadatak se izvršava");};
-new Thread(zadatak).start();
-- explanation: Kod na slici predstavlja upotrebu Lambda funkcija za korišćenje klase "Thread":
-Prikazani kod koristi lambda izraz za definisanje Runnable zadatka, što je moderan i kraći način za kreiranje i pokretanje niti u Javi. Lambda omogućava direktno definisanje ponašanja niti bez potrebe za eksplicitnom klasom.
-
-- option: Klasičnu upotrebu klase "Thread"
-
-- answer: Upotrebu Lambda funkcija za korišćenje klase "Thread"
-
-- option: Ništa od navedenog
-
-Q: Prilikom razvoja mobilnih aplikacija za Android platformu, kompletan grafički korisnički interfejs se nalazi u:
-- explanation: Prilikom razvoja mobilnih aplikacija za Android platformu, kompletan grafički korisnički interfejs se nalazi u posebnoj korisničkoj niti:
-U Android razvoju, sav grafički korisnički interfejs (UI) se izvršava u glavnoj (main) niti, poznatoj kao UI thread. Ovo obezbeđuje da svi UI elementi budu ažurirani konzistentno i spreči konkurentne probleme.
-
-- option: Prvoj slobodnoj niti
-
-- option: Bilo kojoj niti
-
-- answer: Posebnoj korisničkoj niti
-
-Q: Šta je tačno za Runnable?
-- explanation: Šta je tačno za Runnable:
-Runnable je interfejs koji definiše jednu metodu run(), koju klase moraju implementirati da bi se mogle izvršavati kao niti. Funkcionalni interfejs znači da ima samo jednu apstraktnu metodu. Klasa Thread implementira ovaj interfejs, što omogućava kreiranje i pokretanje niti.
-
-- answer: Runnable je funkcionalni interfejs.
-
-- answer: Klasa Thread implementira Runnable interfejs.
-
-- answer: Runnable ima metodu run(), koju je neophodno nadjačati u klasi koja ga implementira.
-
-- option: Runnable je izveden iz klase Thread.
-
-- option: Runnable je klasa koja je na vrhu hijerarhije nasledivanja svih klasa niti.
-
-- option: Runnable definiše dve metode koje svaka klasa koja se izvršava u niti mora implementirati.
-
-Q: Zatvaranje konekcije može inicirati:
-- explanation: Zatvaranje konekcije može inicirati:
-Mrežna konekcija može biti zatvorena bilo od strane klijenta ili servera, zavisno od potrebe komunikacije ili nastanka greške u komunikaciji.
-
-- option: Samo klijent ili server
-
-- answer: Klijent
-
-- answer: Server
-
-- answer: Klijent i server
-
-- option: Samo server
-
-- option: Samo klijent
-
-Q: HTTP response statusni kod 3xx oznacava:
-- explanation: HTTP response statusni kod 3xx oznacava:
-HTTP statusni kodovi 3xx označavaju preusmeravanje, što znači da klijent mora preduzeti dodatnu akciju da bi kompletirao zahtev.
-
-- answer: Preusmeravanje
-
-- option: Klijentsku grešku
-
-- option: Uspeh
-
-- option: Informaciju
-
-- option: Serversku grešku
-
-Q: Koji protokoli se koriste za prenos fajlova?
-- explanation: Koji protokoli se koriste za prenos fajlova:
-FTP i SFTP su standardni protokoli za prenos fajlova u mreži. SFTP je sigurnija verzija jer koristi enkripciju.
-
-- answer: FTP
-
-- option: IMAP
-
-- answer: SFTP
-
-- option: SMTP
-
-- option: POP
-
-Q: Vertikalna skalabilnost podrazumeva dodavanje:
-- explanation: Vertikalna skalabilnost podrazumeva dodavanje:
-Vertikalna skalabilnost znači povećanje resursa (npr. RAM, CPU) na jednoj mašini umesto dodavanja više mašina.
-
-- option: instance aplikacije ili baze podataka u distribuiranom sistemu
-
-- answer: resursa jednoj aplikaciji, kao što su memorija ili procesor
-
-Q: 192.168.1.1 je primer kako izgleda:
-- explanation: 192.168.1.1 je klasičan primer IPv4 adrese, koja se koristi za lokalne mreže. IPv4 koristi 32-bitni numerički format podeljen u četiri okteta.
-
-- option: IPv3
-
-- answer: IPv4
-
-- option: IPv2
-
-- option: IPv6
-
-Q: IP adresa je:
-- explanation: IP adresa je 32-bitni ceo broj koji jedinstveno identifikuje svaki uređaj u IPv4 mreži.
-
-- option: 64-bitni ceo broj
-
-- answer: 32-bitni ceo broj
-
-- option: 16-bitni ceo broj
-
-Q: Svakom računaru u mreži se dodeljuje:
-- explanation: Svakom računaru u mreži se dodeljuje jedinstvena adresa za identifikaciju i komunikaciju.
-
-- answer: Adresa
-
-- option: Broj
-
-- option: Port
-
-Q: IPv6 koristi:
-- explanation: IPv6 koristi 128-bitne adrese i omogućava daleko više jedinstvenih adresa nego IPv4.
-
-- option: 164-bitne brojeve za adrese
-
-- option: 132-bitne brojeve za adrese
-
-- answer: 128-bitne brojeve za adrese
-
-Q: Realizacija sinhronizacije je bazirana na:
-- explanation: Sinhronizacija se bazira na katancu (Lock), koji omogućava ekskluzivan pristup resursima i sprečava konkurenciju između niti.
-
-- option: Mrtva petlja (eng. Deadlock)
-
-- answer: Katanca (eng. Lock)
-
-- option: Bravi (eng. Door Lock)
-
-Q: Ukoliko je semafor objekat klase Semaphore, nit se prijavljuje na semafor pozivom metode:
-- explanation: Metoda acquire() omogućava niti da traži pristup. Ako nema dozvola, čeka dok se jedna ne oslobodi.
-
-- option: semafor.obtain()
-
-- option: semafor.availablePermits()
-
-- answer: semafor.acquire()
-
-- option: semafor.assign()
-
-Q: Korišćenjem mikro-servis arhitekture pruža:
-- explanation: Mikro-servis arhitektura omogućava modularan razvoj gde se sistem deli na nezavisne servise – lakši razvoj i skalabilnost.
-
-- answer: Jednostavniji razvoj aplikacije
-
-- option: Robusnost
-
-- option: Olakšan proces instalacije
-
-- option: Komplikovane metode
-
-- answer: Proširivost
-
-Q: Koji heš se koristi za HTTP protokol:
-- explanation: Koji heš se koristi za HTTP protokol:
-MD5 (Message Digest 5) je heš algoritam koji se često koristi za proveru integriteta podataka u HTTP komunikaciji, iako se danas preporučuju sigurniji algoritmi.
-
-- option: MD4 (Message Digest 4)
-
-- answer: MD5 (Message Digest 5)
-
-- option: SHA-2
-
-- option: SHA-512
-
-Q: U kojoj memoriji u Javi se čuvaju lokalne promenljive metoda:
-- explanation: U kojoj memoriji u Javi se čuvaju lokalne promenljive metoda:
-Lokalne promenljive metode čuvaju se u stek memoriji, koja je brza memorija namenjena radu metoda i čuvanju lokalnih podataka.
-
-- answer: Stek memoriji
-
-- option: ništa od navedenog
-
-- option: referentnoj memoriji
-
-- option: dinamičkoj memoriji
-
-- option: heap memoriji
-
-- option: RAM memoriji
-
-Q: Ukoliko je semafor objekat klase Semaphore, metoda "semafor.release()":
-- explanation: Ukoliko je semafor objekat klase Semaphore, metoda "semafor.release()":
-Ova metoda oslobađa dozvolu, čime povećava broj dostupnih dozvola u semaforu, i omogućava drugim nitima da pristupe resursu.
-
-- answer: kada niti više nije potreban pristup resursu, oslobađa svoju dozvolu, a broj trenutno slobodnih dozvola se inkrementira
-
-- option: nit se prijavljuje na semafor, ukoliko ima dostupnih dozvola dobija pristup resursu i dekrementira broj trenutno slobodnih dozvola
-
-- option: vraća broj trenutno raspoloživih dozvola
-
-Q: Kada se program pokrene:
-- explanation: Kada se program pokrene:
-Java virtuelna mašina (JVM) kreira glavnu nit i poziva main() metodu – to je početna tačka izvršavanja svakog Java programa.
-
-- option: Java virtuelna mažina kreira niti koje nisu vidljive korisniku
-
-- answer: Java virtuelna mašina kreira main nit i poziva main() metodu programa u okviru te niti.
-
-Q: Koji protokol koristi VoIP?
-- explanation: Koji protokol koristi VoIP:
-VoIP koristi UDP jer omogućava brži prenos podataka bez kašnjenja, što je ključno za glasovnu komunikaciju u realnom vremenu.
-
-- option: TCP
-
-- answer: UDP
-
-Q: Prednosti višenitnog programiranja:
-- explanation: Prednosti višenitnog programiranja:
-Višenitno programiranje omogućava bolju iskorišćenost resursa i omogućava programu da nastavi rad čak i kada je jedna nit blokirana.
-
-- option: Prekid rada ukoliko dođe do blokade ulazno izlazne operacije
-
-- answer: Lakše pisanje programa
-
-- answer: Mogućnost rada programa uprkos blokirajućoj ulazno izlaznoj operaciji
-
-- option: Složeniji kod
-
-Q: Programski kod treba da bude:
-- explanation: Programski kod treba da bude:
-Dobar kod je čitljiv, razumljiv i proširiv kako bi se lakše održavao, razumeo i nadograđivao.
-
-- answer: Čitljiv
-
-- option: Robustan
-
-- option: Tajanstven
-
-- answer: Razumljiv
-
-- answer: Proširiv
-
-- option: Komplikovan
-
-- option: Opširan
-
-- option: Nepregledan
-
-Q: HTTP je:
-- explanation: HTTP je:
-HTTP je skraćenica za Hypertext Transfer Protocol, protokol za razmenu informacija između klijenta i servera.
-
-- option: Hypermedia Transfer Protocol
-
-- answer: Hypertext Transfer Protocol
-
-- option: Hypertime Transfer Protocol
-
-Q: Za HTTP dodatno zaglavlje info o pregledaču, koje ima funkciju i smer slanja od klijenta ka serveru, ima sledeći primer zaglavlja:
-- explanation: HTTP zaglavlja kao što su User-Agent, Accept, Cookie, i Authorization šalju informacije o klijentu serveru.
-
-- answer: If-Modified-Since, If-None-Match, Date, Last-Modified, Expires, Cache-Control, ETag
-
-- answer: User-Agent, Accept, Accept-charset, Accept-Encoding, Accept-Language
-
-- answer: Cookie, Referer, Authorization, Host
-
-- option: Content-Encoding, Content-Length, Content-Type, Content-Language, Content-Range, Set-Cookie
-
-Q: U Javi, ukoliko se koristi semafor, nit koja želi da pristupi resursu treba da traži dozvolu. Dozvolu će dobiti samo u kom slučaju?
-- explanation: Semafor daje dozvolu samo ako je broj dostupnih dozvola veći od nule. U suprotnom, nit čeka.
-
-- option: vrednost semafora je tačno 0.
-
-- option: vrednost semafora je tačno 1.
-
-- answer: vrednost semafora je veća od 0.
-
-- option: vrednost semafora je veća od 1.
-
-- option: vrednost semafora je manja od 0.
-
-Q: Na kom portu radi POP3?
-- explanation: POP3 (Post Office Protocol v3) standardno koristi port 110 za preuzimanje e-pošte.
-
-- option: 101
-
-- option: 113
-
-- answer: 110
-
-- option: 112
-
-- option: 111
-
-- option: 10
-
-- option: 100
-
-Q: Koliko osnovnih operacija može da izvrši soket?
-- explanation: Soket može izvršiti 7 osnovnih operacija uključujući povezivanje, slanje, prijem, itd.
-
-- option: 17
-
-- option: 1
-
-- option: 8
-
-- option: 6
-
-- option: 18
-
-- option: 5
-
-- option: 9
-
-- option: 19
-
-- answer: 7
-
-Q: Šta obezbeđuje paralelizam u radu servera:
-- explanation: Niti omogućavaju da server izvršava više zadataka paralelno, pa više klijenata može istovremeno biti usluženo.
-
-- answer: Niti
-
-- option: Čvorovi
-
-- option: Sinhronizacija
-
-Q: Ukoliko je semafor objekat klase Semaphore, metoda "semafor.acquire()":
-- explanation: Ova metoda zauzima dozvolu. Ako je nijedna nije dostupna, nit se blokira dok ne postane dostupna.
-
-- option: kada niti više nije potreban pristup resursu, oslobađa svoju dozvolu, a broj trenutno slobodnih dozvola se inkrementira
-
-- option: vraća broj trenutno raspoloživih dozvola
-
-- answer: nit se prijavljuje na semafor, ukoliko ima dostupnih dozvola dobija pristup resursu i dekrementira broj trenutno slobodnih dozvola
-
-Q: Aplikacija bi trebalo da bude skalabilna u smislu da:
-- explanation: Skalabilna aplikacija može da se širi i razvija — kako po resursima, tako i po svojoj arhitekturi.
-
-- option: se ne mogu dodavati resursi
-
-- option: da se sama aplikcija ne menja
-
-- answer: se mogu dodavati resursi
-
-- answer: da se sama aplikacija menja
-
-Q: Komponente monolitnog programa su:
-- explanation: U monolitnoj arhitekturi komponente su usko povezane i međuzavisne.
-
-- option: Nepovezane
-
-- answer: Povezane
-
-- answer: Međusobno zavisne
-
-- option: Međusobno nezavisne
-
-Q: Sinhronizacija može dovesti do problema:
-- explanation: Deadlock (mrtva petlja) se može desiti ako dve niti čekaju jedna drugu da oslobodi resurs — i nijedna ne nastavlja.
-
-- answer: Mrtve petlje (eng. Deadlock)
-
-- option: Katanca (eng. Lock)
-
-- option: Brave (eng. Door Lock)
-
-Q: Soketi omogućavaju programeru da tretira mrežnu konekciju kao:
-- explanation: Soket omogućava dvosmernu komunikaciju — pisanje i čitanje podataka, kao da radimo sa fajlovima.
-
-- option: Tok podataka u koji može samo upisivati podatke
-
-- answer: Tok podataka u koji može upisivati i iz kog može čitati podatke
-
-- option: Tok podataka u koji može samo čitati podatke
-
-Q: Implementacije bazirane na mikro-servisima nikada ne smeju da imaju:
-- explanation: Mikro-servisi bi trebalo da eliminišu "jednu tačku pada" (single point of failure), radi otpornosti sistema.
-
-- answer: Jednu tačku pada sistema
-
-- option: Samo jednu tačku pada sistema
-
-- option: Više tačaka pada sistema
-
-Q: Metoda "sleep" klase Thread:
-- explanation: Metoda sleep() stavlja nit u stanje mirovanja određeni broj milisekundi. Ovo pauzira izvršavanje bez gašenja niti.
-
-- answer: označava nit u kojoj se metoda izvršava prelazi u stanje spavanja za navedeni broj milisekundi
-
-- option: provera statusa izvršavanja neke niti
-
-- option: označava da jedna nit čeka da se druga nit završi, i da tek onda nastavi izvršavanje
-
-- option: označava da jedna nit može poslati signal prekida drugoj niti i da uradi nešto sasvim drugo
-
-- option: označava da JVM svakoj niti dodeljuje prioritet sa kojim se izvršava
-
-Q: Kada je potrebno da jedna nit sačeka drugu da završi sa radom pre nego što nastavi svoje izvršavanje koristi se metoda:
-- explanation: join() metoda omogućava da jedna nit sačeka završetak druge niti pre nego što nastavi svoj rad.
-
-- option: close()
-
-- option: wait()
-
-- option: start()
-
-- option: stop()
-
-- option: colapse()
-
-- answer: join()
-
-Q: Kod koji treba da se izvršava u paralelnoj niti, potrebno je staviti u telo metode:
-- explanation: U Java niti, kod koji treba da se izvršava u drugoj niti mora biti unutar run() metode.
-
-- option: join()
-
-- option: start()
-
-- option: init()
-
-- option: execute()
-
-- answer: run()
-
-Q: Na kom portu HTTPS inicira komunikaciju preko TCP konekcije?
-- explanation: HTTPS koristi port 443 za sigurnu komunikaciju putem SSL/TLS.
-
-- option: 80
-
-- option: 344
-
-- option: 434
-
-- option: 8080
-
-- answer: 443
-
-- option: 343
-
-Q: Nove niti se mogu kreirati putem:
-- explanation: Niti se mogu kreirati korišćenjem konstruktora klase Thread uz prosleđen Runnable objekat.
-
-- option: Implementiranjem interfejsa "Runnable"
-
-- option: Instanciranjem klasa koje treba da budu izvršene u nitima
-
-- answer: Konstruktora klase "Thread"
-
-- option: Instanciranjem klase koja je izvedena iz klase "Thread"
-
-Q: Kada se katanac zaključava?
-- explanation: Katanac (lock) se aktivira kada se izvrši sinhronizovana metoda ili blok – omogućava ekskluzivan pristup resursima.
-
-- option: Kada se izvrši sinhrona metoda
-
-- option: Kada se izvrši sekvencijalna metoda
-
-- option: Kada se izvrši sinhrona naredba
-
-- option: Kada se izvrši asinhrona metoda
-
-- answer: Kada se izvrši sinhronizovana metoda
-
-- option: Kada se izvrši sekvencijalna naredba
-
-- option: Kada se izvrši naredba sinhronizacije
-
-- option: Kada se izvrši asinhrona naredba
-
-Q: HTTP response statusni kod 5xx označava:
-- explanation: Kodovi 5xx signaliziraju da je došlo do greške na strani servera tokom obrade zahteva.
-
-- option: Informaciju
-
-- option: Klijentsku grešku
-
-- answer: Serversku grešku
-
-- option: Uspeh
-
-- option: Preusmeravanje
-
-Q: Na kom sloju OSI modela se nalazi TCP protokol?
-- explanation: TCP (Transmission Control Protocol) radi na transportnom sloju OSI modela.
-
-- option: Veze
-
-- option: Aplikativni
-
-- option: Fizički
-
-- answer: Transportni
-
-- option: Prezentacioni
-
-- option: Sesije
-
-- option: Mrežni
-
-Q: U mikro-servis arhitekturi, aplikacija se:
-- explanation: Mikro-servis arhitektura deli aplikaciju na nezavisne funkcionalne celine (servise).
-
-- option: komponuje kao jedna celina
-
-- answer: dekomponuje na više servisa
-
-Q: HTTP protokol funkcioniše kao:
-- explanation: HTTP koristi model zahteva i odgovora – klijent šalje zahtev, server vraća odgovor.
-
-- answer: request-response protokol
-
-- option: send-recieve protokol
-
-Q: Kako se rešava mehanizam uzajamne isključivosti pristupu deljenom resursu u Javi?
-- explanation: Uzajamna isključivost se rešava upotrebom synchronized metoda i blokova koji osiguravaju da samo jedna nit pristupa resursu.
-
-- option: Preko asinhronih metoda i naredbi
-
-- answer: Preko sinhronizovanih metoda i naredbi
-
-- option: Preko sekvencijalnih metoda i naredbi
-
-- option: Preko sinhronih metoda i naredbi
-
-Q: Neka od pitanja na koja inženjeri treba da odgovore pre pristupa samom razvoju aplikacije:
-- explanation: Planiranje razvoja zahteva razmatranje tehnologija i funkcionalnih zahteva aplikacije.
-
-- option: Izbor arhitekture
-
-- answer: Izbor tehnologija
-
-- option: Izbor projekta
-
-- answer: Funkcionalni zahtevi koje treba implementirati
-
-Q: System.out.println("Vrednost je: " + vrednost); dostupna = false; notifyAll(); return vrednost;
-Kod iznad služi da:
-- explanation: Kod obaveštava potrošača da proizvođač više ne koristi podatke i da se resurs može koristiti.
-
-- answer: Proizvođač obavesti potrošača o tome da želi da izmeni sadržaj koji potrošač eventualno želi da koristi.
-
-- answer: Potrošač obavesti potrošača o tome da sadržaj koji želi da izmeni trenutno zauzet.
-
-- option: Potrošač obaveštava da je sadržaj koji proizvođač eventualno želi da uzme trenutno zauzet
-
-- option: Potrošač obavesti potrošača o tome da sadržaj koji želi da izmeni trenutno zauzet.
-
-Q: Kada se koriste anonimne klase?
-- explanation: Anonimne klase se koriste kada nam treba objekat klase koja se koristi samo jednom i nije potrebna za dalje korišćenje.
-
-- answer: Kada je potrebno konstruisati samo jedan objekat te klase
-
-- option: Kada je potrebno konstruisati jedan ili više objekata te klase
-
-- option: Kada je potrebno konstruisati više objekata jedne klase
-
-Q: Objekat klase "Thread" ima jednu svrhu:
-- explanation: Glavna svrha Thread objekta je izvršavanje koda koji se nalazi unutar run() metode.
-
-- option: da izvrši zadatak koji se nalazi u njegovoj main metodi
-
-- answer: da izvrši zadatak koji se nalazi u jednoj njegovoj specijalnoj metodi
-
-Q: PLT je:
-- explanation: Page Load Time (PLT) predstavlja vreme koje protekne od klika na link do potpune učitanosti stranice.
-
-- option: Vreme izvršavanja jednog po jednog zadataka u trenutku.
-
-- answer: Vreme koje protekne od trenutka kada korisnik klikne na link do trenutka otvaranja dokumenta.
-
-Q: Ukoliko je t objekat tipa Thread, i u nekoj drugoj niti napišemo t.join(), druga nit...
-- explanation: t.join() izaziva da druga nit sačeka dok se nit t potpuno ne završi.
-
-- option: se prekida kako bi prepustila procesor prvoj niti.
-
-- answer: prelazi u stanje spavanja dok se nit t kompletno ne završi.
-
-- option: nastavlja normalno sa izvršavanjem, odnosno poziv ove metode nema efekta na drugu nit.
-
-- option: će pokrenuti nit t i prepustiti joj procesor.
-
-Q: ,,(lista argumenata) -> telo metode" predstavlja:
-- explanation: Ovo je sintaksa za lambda izraz – kraći oblik definisanja funkcionalnog interfejsa.
-
-- option: Lokalne klase
-
-- option: Anonimne klase
-
-- answer: Lambda izraz
-
-- option: Konstruktor
-
-Q: HTTP response statusni kod 2xx označava:
-- explanation: Status kodovi 2xx znače da je zahtev uspešno obrađen.
-
-- option: Serversku grešku
-
-- option: Preusmeravanje
-
-- option: Informaciju
-
-- answer: Uspeh
-
-- option: Klijentsku grešku
-
-Q: Ukoliko je semafor objekat tipa Semaphore, broj raspoloživih dozvola se dobija pozivom metode:
-- explanation: availablePermits() metoda vraća broj trenutno dostupnih dozvola u semaforu.
-
-- option: semafor.licences()
-
-- answer: semafor.availablePermits()
-
-- option: semafor.numPermits()
-
-- option: semafor.getPermits()
-
-- option: semafor.acquire()
-
-Q: Aplikacija je skalabilna ako:
-- explanation: Aplikacija je skalabilna ako može da koristi više resursa bez potrebe za promenom njenog koda.
-
-- option: Se ne mogu dodavati resursi, a aplikacija se menja
-
-- answer: Se mogu dodavati resursi, a da se aplikacija ne menja
-
-Q: Upotrebom lambda izrazima:
-- explanation: Lambda izrazi omogućavaju kraći i pregledniji kod uklanjanjem potrebe za anonimnim klasama.
-
-- option: Kod postaje nepregledniji
-
-- option: Dodaju se neophodni delovi koda
-
-- answer: Eliminiše se višak koda
-
-- answer: Kod je jasnije napisan
-
-Q: Mrtva petlja u višenitnom okruženju može nastati u sledećim slučajevima:
-- explanation: Deadlock može nastati kada dve niti čekaju jedna drugu unutar sinhronizovanih blokova ili metoda.
-
-- option: Jedna sinhronizovana metoda se poziva iz iste sinhronizovane metode.
-
-- answer: Jedna sinhronizovana metoda se poziva iz druge sinhronizovane metode.
-
-- answer: Postoje ugnježdeni sinhronizovani blokovi.
-
-- option: Jedna sinhronizovana metoda se ne poziva.
-
-- option: Ne postoje ugnježdeni sinhronizovani blokovi.
-
-Q: Za HTTP dodatno zaglavlje tip sadržaja, koje ima funkciju i smer slanja od servera ka klijentu, ima sledeći primer zaglavlja:
-- explanation: Ova zaglavlja definišu tip i karakteristike sadržaja koji server šalje klijentu.
-
-- option: If-Modified-Since, If-None-Match, Date, Last-Modified, Expires, Cache-Control, ETag
-
-- option: User-Agent, Accept, Accept-charset, Accept-Encoding, Accept-Language
-
-- option: Cookie, Referer, Authorization, Host
-
-- answer: Content-Encoding, Content-Length, Content-Type, Content-Language, Content-Range, Set-Cookie
-
-Q: Jedna od preopterećenih "join" metoda je:
-- explanation: join(long millis) omogućava čekanje određeno vreme pre nego što nit nastavi, čak i ako druga nije završena.
-
-- answer: void join(long millis)
-
-- option: void join(small millis)
-
-- option: void join(last millis)
-
-- option: void join(long mile)
-
-Q: Sekvencijalno programiranje je:
-- explanation: Sekvencijalno programiranje znači da se instrukcije izvršavaju jedna po jedna, redom.
-
-- answer: Programiranje jedne po jedne stvari u trenutku
-
-- option: Programiranje više stvari od jednom
-
-- option: Programiranje više stvari naizmenično
-
-Q: Kojom metodom se pokreće nit?
-- explanation: start() metoda pokreće novu nit i poziva run() u okviru nje.
-
-- option: runInParallel()
-
-- answer: start()
-
-- option: runOnUiThread()
-
-- option: run()
-
-- option: execute()
-
-Q: Alat za centralno skladištenje programskog koda je:
-- explanation: Git je sistem za verzionisanje koda koji omogućava saradnju i praćenje izmena.
-
-- option: Geet
-
-- answer: Git
-
-- option: BitBucket
-
-- option: Trello
-
-Q: Ograničenje kod portova je:
-- explanation: Portovi od 0 do 1024 su "well-known" i rezervisani za standardne servise poput HTTP (80), HTTPS (443), itd.
-
-- option: da su brojevi od 1024 do 1224 rezervisani za standardne veb servise
-
-- answer: da su brojevi od 0 do 1024 rezervisani za standardne veb servise
-
-- option: da su brojevi od 1200 do 1846 rezervisani za standardne veb servise
-
-- option: da su brojevi od 0 do 102 rezervisani za standardne veb servise
-
-Q: Za HTTP dodatno zaglavlje info o keširanju, koje ima funkciju i smer slanja od klijenta ka serveru i obrnuto, ima sledeći primer zaglavlja:
-- explanation: Ova zaglavlja omogućavaju kontrolu keširanja između klijenta i servera, optimizujući performanse.
-
-- answer: If-Modified-Since, If-None-Match, Date, Last-Modified, Expires, Cache-Control, ETag
-
-- option: Cookie, Referer, Authorization, Host
-
-- option: Content-Encoding, Content-Length, Content-Type, Content-Language, Content-Range, Set-Cookie
-
-- option: User-Agent, Accept, Accept-charset, Accept-Encoding, Accept-Language
-
-Q: U kom Java paketu se nalaze klase za konkurentno programiranje?
-- explanation: Paket java.util.concurrent sadrži alate i klase za rad sa nitima, semaforima i drugim konkurentnim strukturama.
-
-- option: ništa od navedenog
-
-- option: java.util.programming.concurrent
-
-- answer: java.util.concurrent
-
-- option: java.concurrent
-
-- option: java.lang.Object
-
-- option: java.lang.concurrent
-
-Q: Ukoliko je semafor objekat klase Semaphore, metoda "semafor.availablePermits()":
-- explanation: Ova metoda vraća broj trenutno dostupnih dozvola bez promene njihovog broja.
-
-- option: nit se prijavljuje na semafor, ukoliko ima dostupnih dozvola dobija pristup resursu i dekrementira broj trenutno slobodnih dozvola
-
-- option: kada niti više nije potreban pristup resursu, oslobađa svoju dozvolu, a broj trenutno slobodnih dozvola se inkrementira
-
-- answer: vraća broj trenutno raspoloživih dozvola
-
-Q: Metoda ".setPriority()" klase "Thread" može da menja prioritet izvršavanja niti JVM. Ova metoda sadrži konstante koje imaju vrednosti 1, 5 i 10. Te konstante su:
-- explanation: Java koristi tri konstante za prioritet niti: MIN_PRIORITY (1), NORM_PRIORITY (5), MAX_PRIORITY (10).
-
-- answer: NORM_PRIORITY
-
-- answer: MAX_PRIORITY
-
-- option: NORMAL_PRIORITY
-
-- option: MINIMAL PRIORITY
-
-- option: MIN_THREAD_NO
-
-- option: MAX_THREAD_NO
-
-- option: MAXIMAL_PRIORITY
-
-- option: NORM_THREAD_NO
-
-- answer: MIN_PRIORITY
-
-Q: Kako se predstavlja nit u Java programskom jeziku i koji interfejs implementira?
-- explanation: Niti se u Javi predstavljaju klasom Thread, koja implementira interfejs Runnable.
-
-- option: Nit se predstavlja klasom Runnable, koja implementira interfejs Thread.
-
-- option: Nit se predstavlja klasom Thread, koja implementira interfejs Executable.
-
-- answer: Nit se predstavlja klasom Thread, koja implementira interfejs Runnable.
-
-- option: Nit se predstavlja klasom Task, koja implementira interfejs Thread.
-
-- option: Nit se predstavlja klasom Runnable, koja implementira interfejs Task.
-
-- option: Nit se predstavlja klasom Task, koja implementira interfejs Runnable.
-
-Q: "Socket soket = server.accept();" Dati deo koda predstavlja:
-- explanation: Ova linija koda označava da server prihvata zahtev za konekciju od klijenta.
-
-- option: Slanje zahteva za konekciju
-
-- answer: Odgovor na zahtev za konekciju
-
-Q: Metode klase Thread su:
-- explanation: Klasa Thread uključuje metode za upravljanje izvršavanjem niti: sleep(), join(), interrupt() i druge.
-
-- answer: sleep()
-
-- option: toString()
-
-- option: concat()
-
-- answer: interrupt()
-
-- option: equals()
-
-- option: isAlive()
-
-- answer: join()
-
-Q: Kako se naziva svaki funkcionalan računar u mreži?
-- explanation: Svaki funkcionalan uređaj u mreži koji može da šalje i prima podatke naziva se host.
-
-- option: Guest
-
-- option: Administrator
-
-- option: Visitor
-
-- answer: Host
+Q:  Protokol koji omogućava deljenje fajlova između Windows računara naziva se:
+- option:  TFTP
+- option:  NFS
+- option:  SFTP
+- option:  Samba
+- option:  Nebulos
+- answer:  CIFS
+
+Q:  U modelu PaaS za runtime komponentu klaud sistema odgovoran je:
+- option:  Klijent
+- answer:  Isporučilac usluge
+
+Q:  Kako se naziva fenomen kada je IT infrastruktura u početku mala, a potom raste tako što se dodaju IT resursi kada za to nastane potreba?
+- option:  Hyperconverged infrastructure
+- option:  Converged Infrastructure
+- option:  IT crawl
+- answer:  IT sprawl
+
+Q:  NFS protocol za deljenje fajlova je:
+- answer:  Siguran protocol koji služi za deljenje fajlova između Linux klijenata.                              - option:  Industrijski standard za transfer fajlova putem šifrovanog kanala.                                                   - option:  Siguran protocol koji služi za deljenje fajlova između Windows računara. 	                   - option:  Industrijski standard za transfer fajlova u formi otvorenog (eng. “plain”) teksta.
+
+Q:  Kategorizacija koja opisuje dimenzije I oblik računara, uređaja ili računarskih komponenti naziva se:
+- answer:  Form factor                                                                                                                          - option:  Tower                                                                                                                                   - option:  Size factor                                                                                                                            - option:  Size fact                                                                                                                               - option:  Factor size                                                                                                                                 - option:  Factor form 
+
+Q:  Koji od sledećih iskaza je tačan:
+- answer:  Hub and spoke topologija je slična topologiji zvezde                                                                  - option:  Potpuno zamršena topologija je slična topologiji zvezve                                                                 - option:  Klaud DHCP protocol u pojedinim slučajevima koristi DORA model                                            - option:  Konvegirane tehnologije se najčešće koriste u implementaciji mrežnih komutatora trećeg sloja                                                                                                                                     - option:  Ništa od navedenog nije tačno                                                                                                            - option:  Delimično zamržena topologija se najčešće koristi kod lokalnih mreža
+
+Q:  Prema Gartner- option: u neke od pet glavnih karakteristika klaud računarstva su (označiti 3 uljeza):
+- option:  merenje po potrošnji                                                                                                                                       - answer:  korišćenje HTTP protokola                                                                                                                   - answer:  korišćenje internet tehnologija                                                                                                              - option:  dostavljanje resursa na zahtev                                                                                                            - option:  skalabilnost                                                                                                                                                   - answer:  orijentisanost ka virtuelnim mašinama
+
+Q:  Koja od sledećih tvrdnji koja se odnosi na tehnologiju virtualizacije je tačna:
+- option:  Operativni system “vidi” grupu fizičkih server kao jedan skup računarskih resursa i više operativnih sistema može paralelno da se izvršava na jednoj fizičkoj mašini (serveru).       - option:  Bez višenitnog izvršavanja tehnologije virtualizacije ne bi bilo moguće                             - option:  Ništa od nevedenog nije tačno                                                                                                         - answer:  Virtualizacija podrazumeva enkapsulaciju I apstrakciju računarskih resursa, kada se oni koriste na način koji odgovara određenoj primeni                                                                    - option:  Jedan od oblasti koju virtuelizacija obuhvata je virtuelizacija izlaznih uređaja
+Q:  Koji od sledećih iskaza su tačni (označi 2 odgovora):
+- option:  Računarski centar treba da obezbedi asimetričnu optičku konekciju koja će zadovoljiti potrebe za brzim prenosom podataka i pravovremenim obavljanjem svih aktivnosti.                  
+- option:  U širokopojasnim mrežama najčešće se koristi topologija zvezva i linkovi                                  - answer:   proxy server koji optimizuju pristup internet tako što keširaju (eng. caching) sadržaj i vrše autorizovanje Web saobraćaja                                                                                                        - option:  Tačan je samo jedan od ponuđenih                                                                                                     - option:  WINS (Windows Internet Naming Service) server koji razrešavaju NetBIOS (Network Basic Input Output System) imena u IP adrese                                                                                       - answer:  Računski centar treba da obezbedi kontrolu okruženja da bi se toplota koju generiše oprema na odgovarajući način rasipala I da bi se oprema hladila do optimalne radne temperature                                                                                                                                   - option:  CIFS je takoše poznat pod nazivom SMBP
+
+Q:  Glavna snaga virtualizacije leži u:
+- answer:  Particionisanju                                                                                                                                     - option:  Departicionisanju                                                                                                                                     - option:  Dekonponiciji                                                                                                                                      - option:  Segregaciji                                                                                                                                                - option:  Agregaciji                                                                                                                                                - option:  Kompoziciji
+
+Q:  Neki od modova (opcija) za konfigurisanje timova mrežnih kartica su (označi 2 tačna odgovora)
+- option:  Transmit Load Balancing with Failover Protection and Preference Sequence                                                                  - answer:  NFT                                                                                                                                        - answer:  SLB                                                                                                                                                    - option:  Network Fault Tolerance Only with Sequence Order
+
+
+
+
+
+Q:  Privatni klaud je optimalno rešenje u sledećim situacijama (označiti 2 tačna odgovora):
+- option:  kad je potrebno brzo i na zahtev pribaviti računarske resurse za jednokratnu upotrebu      
+ - answer:  kada je potrebno da se upravlja životnim ciklusom više aplikacija                                          - option:  kada se razvija i testira jedna izolovana aplikacija                                                                      - option:  kada se razvija troslojna aplikacija Web aplikacija                                                                      - answer:  kada postoje zahtevi u pogledu raspoloživosti računarskih resursa različitim poslovnim jedinicama koje su međusobno izolovane
+
+Q:  U navedenoj listi označiti prednosti IaaS modela (označiti 3 tačna odgovora):
+- option:  izbegavanje troškova koji bi nastali kupovinom licenci za korišćenje aplikacija                           - option:  za razliku od SaaS I PaaS modela, klijent je odgovoran za sve aspekte upravljanja                     virtuelnim mašinama                                                                                                               - answer:  focus na rast i razvoj poslovanja                                                                                                        - answer:  laka administracija virtuelnih mašina                                                                                               - answer:  skalabilnost i fleksibilnost                                                                                                             - option:  zavisnost od mreže klaud prvajdera
+
+Q:  Standard 802.11ac podržava frekvenciju:
+- option:  2.4MHz                                                                                                                                       - option:  5MHz i 2.4MHz                                                                                                                               - answer:  5MHz
+
+Q:  Za označavanje javne komutabilne telefonske mreže koristi se sledeći akronim:
+- option:  L2TP                                                                                                                                                    - option:  P2TN                                                                                                                                             - option:  Mesh system                                                                                                                                                           - option:  PBX                                                                                                                                                          - option:  MXS                                                                                                                                     - answer:  PSTN
+
+
+
+Q:  U literature se za politiku “ponesi sopstveni uređak” koristi akronim:
+- option:  BD                                                                                                                                             - option:  TYOD                                                                                                                                              - answer:  BYOD                                                                                                                                               - option:  BYD                                                                                                                                         - option:  BDOYO                                                                                                                                                          - option:  TYDO
+
+Q:  Šta od navedenog ne spade u oblasti virtualizacije (izbaciti 2 uljeza):
+- answer:  Virtuelizacija procesora                                                                                                                 - option:  Virtuelizacija mreže                                                                                                            - option:  Virtuelizacija server                                                                                                              - answer:  Virtuelizacija diska
+
+Q:  Koje su od sledećih tvrdnji tačne (označi 2 tačna odgovora):
+- option:  Infrastruktura javnog klauda je u vlasništvu poslovne, vladine ili akademske organizacije koje su potpuno odgovorne za njegovu sigurnost i bezbednost.                                                       - option:  Jedan od najvećih nedostataka privatnog klauda je nepostojanje striktnih protokola za upravljanje podacima                                                                                                                      - answer:  Ako se posmatra iz perspective privatnih (ličnih) korisnika klaud usluga, javni klaud predstavlja primenu koncepta spoljneg snabdevanja                                                                 - answer:  Modeli javnog klauda najviše se koriste za hostovanje razvojnih platform za obradu velike količine podataka i za kompanije koje nemaju visoke standard po pitanju sigurnosti i bezbednosti podataka i sistema.                                                                                               - option:  Jedna od najvećih prednosti privatnog klauda je troškovna efikasnost.
+
+
+
+
+
+
+
+Q:  Neke od prednosti koje omogućava primena SaaS su sledeće (označiti 3 uljeza):
+- answer:  slaba kontrola nad razvojem, nadogradnjom i testiranjem aplikacija                                         - option:  potpuna kontrola nad virtuelnim mašinama                                                                        - option:  izbegavanje troškova koji bi nastali kupovinom licenci za korišćenje aplikacija                           - option:  brz razvoj, jer se softwer obezbeđuje na zahtev                                                                     - answer:  klijent nema kontrolu nad sistemom koji obrađuje i skladišti njegove podatke                        - option:  optimalna upotreba raspoloživih računarskih resursa                                                          - option:  eliminacija vremena, utrošene energije i troškova koji bi nastali na osnovu implementacije i održavanja svih ovih servisa
+
+Q:  Promena na Klijent/Server računarstvo je nastala:
+- option:  2000                                                                                                                                           - option:  1970 
+- answer:  1980 
+- option:  1990
+
+Q:  Hibridni klaud je optimalan izbor u sledećim situacijama (označiti 2 tačna odgovora):
+- option:  kada se razvija i testira jedna izolovana aplikacija
+- answer:  kada često dolazi do fenomena tzv. pucanja klauda
+- answer:  kada postoje zahtevi za „trajnim” računarskim resursima koji se na klaudu koriste
+- option:  kada je potrebno da se upravlja životnim ciklusom više aplikacija
+- option:  kada se razvija troslojna aplikacija
+
+Q:  Koja od sledećih tvrdnji koja se odnosi na tehnologiju virtuelizacije je tačna:
+- option:  Jedna od oblasti koju virutelizacija obuhvata je virtuelizacija izlaznih uredaja
+- answer:  Virtuelizacija podrazumeva enkapsulaciju i apstrakciju računarskih resursa, kada se oni koriste na način koji odgovara određenoj primeni
+- option:  Ništa od navedenog nije tačno
+- option:  Operativni sistem vidi" grupu fizičkih servera kao jedan skup računarskih resursa i više operativnih sistema može paralelno da se izvršava na jednoj fizičkoj mašini (serveru).
+- option:  Bez višenitnog izvršavanja tehnologija virtuelizacije ne bi bila moguća
+
+
+Q:  Za uslugu Daas koristi se i naziv:
+- option:  xAAs
+- answer:  VDI
+- option:  SDN
+- option:  SDDC
+- option:  PDI
+- option:  BPaaS
+- option:  NLB
+
+Q:  Ako se posmatra fizička lokacija računskog centra (da li se računski centar nalazi u prostorijama kompanije, ili na nekoj drugoj lokaciji), računski centar može da bude organizovan u nekoj od sledećih formi (izbaciti 3 uljeza):
+- answer:  deljeno hostovanje
+- answer:  modeli klaud računarstva
+- option:  namensko hostovanje
+- option:  kolokacioni klaud centar
+- answer:  hostovanje kojim se upravlja
+- option:  računski centar kojim se upravlja
+
+Q:  Neke od neefikasnosti koje su prouzrokovane fenomenom IT bujanja su sledeće (označiti tri odgovora): 
+- answer:  nedovoljno korišćenje resursa
+- option:  neelastičnost TCO indikatora
+- option:  neefikasnost PBX sistema
+- answer:  preveliko opterećenje menadžmenta u donošenju upravljačkih odluka vezanih za korišćenje resursa
+- option:  kupovina loših napajanja računarske opreme
+- option:  nemogućnost implementiranja hipervizora
+- answer:  veći zahtevi za sistemima za hladenje opreme
+
+Q:  WINS servis se koristi za razrešavanje imena računara u IP adrese:
+- option:  NETAČNO
+- answer:  TAČNO
+
+Q:  Mainframe račuanar koji se smatra za prvu instancu virtuelizacije ima naziv: 
+- option:  F10
+- answer:  CP- 40
+- option:  CP- 45
+- option:  OpenNebula
+- option:  ENIAC
+
+Q:  Standard 1000BaseT za bakami kabl koristi sledeće katorije kablova (označiti 2 odgovora):
+- answer:  Cat 5e
+- option:  Cat 2e
+- option:  Cat 3
+- option:  Cat 5
+- option:  Cat 6e
+- option:  Cat 3e
+- option:  Cat 7
+- answer:  Cat 6
+
+Q:  Šta označava akronim TCO?
+- option:  Total Cost of Operations
+- option:  Total Capacity of Operations
+- option:  Total Capacity of Ownership
+- answer:  Total Cost of Ownership
+
+Q:  Da li je sledeća tvrdnja tačna? HP usluge implementacije konvergirane infrastrukture (eng. "HP Converged Infrastructure Implementation Services") omogućavaju klijentima da delimično implementiraju, integriŝu i optimizuju konvergiranu infrastrukturu pomoću HP konvergiranih sistema (eng. HP Converged Systems).
+- option:  Ne
+- answer:  Da
